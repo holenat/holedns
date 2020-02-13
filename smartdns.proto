@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package notr.v1.api;
+
+option go_package = "/proto";
+
+message UpdateDomainReq {
+    string domain = 1;
+    string ip = 2;
+}
+
+message UpdateDomainReply {}
+
+service SmartDNS {
+    rpc UpdateDomain(UpdateDomainReq) returns (UpdateDomainReply){}
+}
