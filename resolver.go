@@ -11,7 +11,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/holenat/smartdns/proto"
+	"github.com/holenat/holedns/proto"
 
 	"go.etcd.io/etcd/clientv3"
 )
