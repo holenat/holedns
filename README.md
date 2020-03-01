@@ -1,6 +1,10 @@
 # smartdns
 ddns for [holenat](http://holenat.net) base on coredns and etcd
 
+## How does it works
+
+![how does it works](flow.png)
+
 ## PreInstall
 
 smartdns use coredns as dns server and etcd as backend storage, before running smartdns, you should run coredns and etcd firstly
